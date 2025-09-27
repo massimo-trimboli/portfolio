@@ -175,7 +175,7 @@ main section{
     align-items: center;
     justify-content: center;
 }
-.content .frame .foto{
+.content .frame img.foto{
     width: 50rem;
     height: auto;
 }
