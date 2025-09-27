@@ -146,3 +146,13 @@ h2.description{
 div.liens{
     margin-top: 5rem;
 }
+.liens nav{
+    margin-left: 3rem;
+}
+.liens nav a{
+    margin-right: 25px;
+}
+.liens nav a img.github{
+    position: relative;
+    bottom: 8px;
+}
