@@ -31,12 +31,53 @@ header nav a{
     padding-right: 7px;
     font-weight: 900;
 }
+/* ////////////////////////////////////////// footer */
+footer{
+    background-color: rgb(31, 31, 31);
+    padding: 20px;
+}
+
+div.liens{
+    margin-top: 5rem;
+}
+.liens nav{
+    margin-left: 3rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.liens nav a{
+    margin-right: 25px;
+    text-decoration: none;
+}
+/* cv button */
+.liens nav a p.cv{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border: 5px solid white;
+    border-radius: 100%;
+    padding: 10px;
+    padding-bottom: 9px;
+
+    position: relative;
+    bottom: 7px;
+}
+
+.copyright{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+    color: rgb(63, 63, 63);;
+}
 
 /* /////////////////////////// main */
 main{
     margin: 30px;
-    height: 90vh;
-    height: 200vh;
+    height: fit-content;
 }
 main section{
     border: 1px solid white;
@@ -141,18 +182,4 @@ main section{
 h2.description{
     padding-left: 14rem;
     width: 50rem;
-}
-
-div.liens{
-    margin-top: 5rem;
-}
-.liens nav{
-    margin-left: 3rem;
-}
-.liens nav a{
-    margin-right: 25px;
-}
-.liens nav a img.github{
-    position: relative;
-    bottom: 8px;
 }
