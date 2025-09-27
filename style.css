@@ -92,6 +92,8 @@ main section{
     border: 1px solid white;
     margin: 5rem;
     padding: 2rem;
+    width: fit-content;
+    height: fit-content;
 }
 .main-page-projet h2{
     margin-bottom: 0;
@@ -132,7 +134,15 @@ main section{
 .content .frame .foto{
     width: 50rem;
 }
-
 .hidden{
     display: none;
+}
+
+h2.description{
+    padding-left: 14rem;
+    width: 50rem;
+}
+
+div.liens{
+    margin-top: 5rem;
 }
