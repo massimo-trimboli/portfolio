@@ -37,8 +37,14 @@ function carousel(direction){
 
 
 function refreshDisplay(){
+    //changer image
     for (let elm of contenu){
     elm.classList.add("hidden");
     }
     contenu[current].classList.remove("hidden");
+
+    //changer compteur
+    let compteur = document.querySelector("#compteur");
+    // 1/3 - 2/3 - 3/3
+    compteur.innerHTML = `${current + 1} / ${contenu.length}`
 }
