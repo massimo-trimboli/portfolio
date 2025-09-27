@@ -111,6 +111,9 @@ main section{
     background-color: grey;
     height: 85%;
     width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .carte h3{
     margin-left: 1rem;
@@ -174,6 +177,7 @@ main section{
 }
 .content .frame .foto{
     width: 50rem;
+    height: auto;
 }
 .hidden{
     display: none;
