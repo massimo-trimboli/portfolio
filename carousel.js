@@ -17,7 +17,8 @@ fleche2.addEventListener("click", function(){
     carousel(1);
 });
 
-
+//pas rapport au carousel mais je le met la quand même
+resizeVideo();
 
 
 
@@ -47,4 +48,22 @@ function refreshDisplay(){
     let compteur = document.querySelector("#compteur");
     // 1/3 - 2/3 - 3/3
     compteur.innerHTML = `${current + 1} / ${contenu.length}`
+}
+
+
+
+
+
+
+function resizeVideo(){
+    //come le css se fait overide par le html et je n'ai pas envie de rétroactivement aller changer
+    //toutes les tailes de video, je le ferai ici dans un script qui est deja attache a toutes 
+    // les pages
+    let lesVids = document.querySelectorAll(".content .frame iframe.foto");
+    if(lesVids != null){
+        for(let laVid of lesVids){
+            laVid.width = 800;
+            laVid.height = 450;
+        }
+    }
 }
