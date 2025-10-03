@@ -75,7 +75,7 @@ div.liens{
     width: 100%;
     text-align: center;
     margin-top: 4rem;
-    color: rgb(63, 63, 63);;
+    color: rgb(63, 63, 63);
 }
 
 /* /////////////////////////// main */
@@ -111,6 +111,12 @@ main section{
     align-items: flex-start;
 
     margin: 1rem;
+
+    box-shadow: 2rem 1rem 20px rgb(20, 20, 20);
+    transition: transform .5s;
+}
+.carte:hover{
+    transform: scale(1.13);
 }
 .carte>a{
     width: 100%;
