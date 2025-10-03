@@ -1,7 +1,8 @@
 let footerCodeAcceuil = 
 `
     <div class="liens">
-                <h1>Mes lien(s):</h1>
+                <h1>Mes liens:</h1>
+                <h2>Pour voir plus de mes projets</h2>
                 <nav>
                     <a href="https://www.linkedin.com/in/trimboli-massimo/"><img src="https://s2.svgbox.net/social.svg?ic=linkedin&color=fff" width="40" height="40" class="linkedin"></a>
                     <a href="https://massimo-trimboli.itch.io/"><img src="img/itch.svg" width="55" height="55"></a>
@@ -17,7 +18,8 @@ let footerCodeAcceuil =
 let footerCode = 
 `
     <div class="liens">
-                <h1>Mes lien(s):</h1>
+                <h1>Mes liens:</h1>
+                <h2>Pour voir plus de mes projets</h2>
                 <nav>
                     <a href="https://www.linkedin.com/in/trimboli-massimo/"><img src="https://s2.svgbox.net/social.svg?ic=linkedin&color=fff" width="40" height="40" class="linkedin"></a>
                     <a href="https://massimo-trimboli.itch.io/"><img src="../img/itch.svg" width="55" height="55"></a>
